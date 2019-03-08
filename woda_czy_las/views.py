@@ -6,3 +6,6 @@ def woda(request):
 
 def las(request):
     return render(request, 'woda_czy_las/las.html')
+
+def home(request):
+    return render(request, 'woda_czy_las/home.html')

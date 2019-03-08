@@ -19,6 +19,7 @@ import woda_czy_las.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', woda_czy_las.views.home, name="home"),
     path('woda', woda_czy_las.views.woda, name='woda'),
     path('las', woda_czy_las.views.las, name='las'),
 ]
